@@ -19,11 +19,11 @@
 ## 🛠️ Past Projects
 
 - 💹 **[ai_investment](https://github.com/djfksjd/ai_investment)**: AI 투자 서포트 웹서비스 (TypeScript).
-- 🍵 **Pook (푹)** 🔒: 모바일 서비스 앱 (Flutter, 웹·앱 병행).
-- 📊 **stock_compass** 🔒: 주식 정보 Flutter 앱.
-- 📄 **docs-compass** 🔒: 문서 관리 Flutter 앱.
+- 🍵 **Pook (푹)** 🔒: 모바일 서비스 앱 (Flutter, 웹·앱 병행) · [🔗 Live](https://www.pookparty.com/)
+- 📊 **stock_compass** 🔒: 주식 정보 Flutter 앱 · [🔗 Live](https://stockcompass.vercel.app/)
+- 📄 **docs-compass** 🔒: 문서 관리 Flutter 앱 · [🔗 Live](https://www.docscompass.com/ko)
+- ✨ **Yunseol (윤슬)** 🔒: Flutter 기반 MVP 프로젝트 · [🔗 Live](https://yun-seol.com/)
 - 💌 **bottle-letter** 🔒: 메시지·편지 Flutter 앱.
-- ✨ **Yunseol (윤슬)** 🔒: Flutter 기반 MVP 프로젝트.
 - 🎫 **ticket_with_ss** 🔒: 티켓팅 Flutter 앱.
 
 > 🔒 = private 저장소 (코드는 비공개, 프로젝트 이력만 표기)
