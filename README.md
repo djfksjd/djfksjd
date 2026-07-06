@@ -23,7 +23,7 @@
 - 📊 **stock_compass** 🔒: 주식 정보 Flutter 앱 · [🔗 Live](https://stockcompass.vercel.app/)
 - 📄 **docs-compass** 🔒: 문서 관리 Flutter 앱 · [🔗 Live](https://www.docscompass.com/ko)
 - ✨ **Yunseol (윤슬)** 🔒: Flutter 기반 MVP 프로젝트 · [🔗 Live](https://yun-seol.com/)
-- 💌 **bottle-letter** 🔒: 메시지·편지 Flutter 앱.
+- 💌 **bottle-letter** 🔒: 메시지·편지 앱 · [🔗 Live]()
 - 🎫 **ticket_with_ss** 🔒: 티켓팅 Flutter 앱.
 
 > 🔒 = private 저장소 (코드는 비공개, 프로젝트 이력만 표기)
