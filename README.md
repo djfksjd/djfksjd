@@ -18,7 +18,7 @@
 
 ## 🛠️ Past Projects
 
-- 💹 **[ai_investment](https://github.com/djfksjd/ai_investment)**: AI 투자 서포트 웹서비스 (TypeScript).
+- 💹 **[ai_investment](https://github.com/djfksjd/ai_investment)**: AI 투자 서포트 웹서비스 (TypeScript) · ⏸️ 개발 중단.
 - 🍵 **Pook (푹)** 🔒: 모바일 서비스 앱 (Flutter, 웹·앱 병행) · [🔗 Live](https://www.pookparty.com/)
 - 📊 **stock_compass** 🔒: 주식 정보 Flutter 앱 · [🔗 Live](https://stockcompass.vercel.app/)
 - 📄 **docs-compass** 🔒: 문서 관리 Flutter 앱 · [🔗 Live](https://www.docscompass.com/ko)
