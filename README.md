@@ -48,5 +48,6 @@
 <br>
 
 ![Profile views](https://komarev.com/ghpvc/?username=djfksjd&color=5865F2&style=flat&label=Profile+views)
-
-<img src="https://streak-stats.demolab.com/?user=djfksjd&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&ring=5865F2&fire=D97757&currStreakLabel=5865F2" height="170" alt="Contribution streak" />
+![Followers](https://img.shields.io/github/followers/djfksjd?style=flat&logo=github&label=Followers&color=555555)
+![Focus](https://img.shields.io/badge/Focus-Voice_AI_·_Agents-D97757?style=flat)
+![Location](https://img.shields.io/badge/Based_in-Korea-0F9D58?style=flat)
