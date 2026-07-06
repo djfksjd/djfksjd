@@ -23,7 +23,7 @@
 
 - 💹 **[ai_investment](https://github.com/djfksjd/ai_investment)**: AI 투자 서포트 웹서비스 (TypeScript) · ⏸️ 개발 중단.
 - 📊 **stock_compass** 🔒: 주식 정보 Flutter 앱 · [🔗 Live](https://stockcompass.vercel.app/)
-- 📄 **docs-compass** 🔒: 문서 관리 Flutter 앱 · [🔗 Live](https://www.docscompass.com/ko)
+- 📝 **docs-compass (문서 나침반)** 🔒: 정부지원사업 서류(사업계획서 등)를 자동 작성하는 AI 멀티에이전트 서비스 — 리서치·서칭 → 시각자료 생성 → 초안 작성 → 심사위원 관점 평가, HWP/DOCX/PDF 내보내기 · [🔗 Live](https://www.docscompass.com/ko)
 - ✨ **Yunseol (윤슬)** 🔒: Flutter 기반 MVP 프로젝트 · [🔗 Live](https://yun-seol.com/)
 - 💌 **bottle-letter** 🔒: 메시지·편지 앱 · 앱 출시 후 서비스 종료
 - 🎫 **ticket_with_ss** 🔒: 티켓팅 Flutter 앱.

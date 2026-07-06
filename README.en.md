@@ -23,7 +23,7 @@ Generative voice AI that adds emotional narration to video — no voice actor re
 
 - 💹 **[ai_investment](https://github.com/djfksjd/ai_investment)**: AI investment support web service (TypeScript) · ⏸️ Discontinued.
 - 📊 **stock_compass** 🔒: Stock info Flutter app · [🔗 Live](https://stockcompass.vercel.app/)
-- 📄 **docs-compass** 🔒: Document management Flutter app · [🔗 Live](https://www.docscompass.com/ko)
+- 📝 **docs-compass** 🔒: AI multi-agent service that auto-writes Korean government grant documents (business plans, etc.) — research → visual generation → drafting → reviewer-perspective evaluation, with HWP/DOCX/PDF export · [🔗 Live](https://www.docscompass.com/ko)
 - ✨ **Yunseol** 🔒: Flutter-based MVP project · [🔗 Live](https://yun-seol.com/)
 - 💌 **bottle-letter** 🔒: Messaging / letter app · launched then sunset
 - 🎫 **ticket_with_ss** 🔒: Ticketing Flutter app.
