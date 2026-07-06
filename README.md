@@ -1,3 +1,5 @@
+<samp>🇰🇷 한국어 · [🇺🇸 English](https://github.com/djfksjd/djfksjd/blob/main/README.en.md)</samp>
+
 # Hi, I'm Danny 👋
 
 **Building generative voice & media AI — and the agents that automate it.**
