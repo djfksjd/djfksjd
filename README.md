@@ -44,7 +44,3 @@
 ## 🔐 개발 원칙
 
 > 시크릿은 코드에 두지 않습니다 — `.env`(gitignore) / `.env.example` 분리, 민감정보 최소수집·처리 후 파기를 기본값으로.
-
-<br>
-
-<img src="https://github-readme-stats.vercel.app/api?username=djfksjd&show_icons=true&hide=stars&count_private=true&theme=default" height="150" alt="stats" />
