@@ -17,16 +17,16 @@ Generative voice AI that adds emotional narration to video — no voice actor re
 - 🎙️ **VoxFader** 🔒: Generative voice AI that adds emotion to video. Auto scene-emotion tagging (vision-LLM) → emotional narration (emotion fine-tuned TTS) → real-time intensity control with an EQ fader.
 - 🤖 **[ai-agent-skills](https://github.com/djfksjd/ai-agent-skills)**: A collection of AI agent skills for real-world automation — HWPX document engine · multi-agent content team · emotional TTS pipeline.
 - 📈 **[stockagent](https://github.com/djfksjd/stockagent)**: A multi-agent stock trading system that uses an LLM as the decision brain. Automates research → strategy → technical validation → risk → orders → reporting.
-- 🍵 **Pook** 🔒: Mobile service app (Flutter, web + app) · [🔗 Live](https://www.pookparty.com/)
+- 🎉 **Pook** 🔒: All-in-one operations service for party hosts — party planning, guest management, mini-games, voting, chat, AI feedback analysis, plus bar ordering/tables/coupons. Web for hosts, app for guests · [🔗 Live](https://www.pookparty.com/)
 
 ## 🛠️ Past Projects
 
 - 💹 **[ai_investment](https://github.com/djfksjd/ai_investment)**: AI investment support web service (TypeScript) · ⏸️ Discontinued.
-- 📊 **stock_compass** 🔒: Stock info Flutter app · [🔗 Live](https://stockcompass.vercel.app/)
+- 📊 **stock_compass** 🔒: AI stock-analysis reports + investing community platform — bilingual (KO/EN) reports, subscriptions, email alerts, comments & likes (responsive web) · [🔗 Live](https://stockcompass.vercel.app/)
 - 📝 **docs-compass** 🔒: AI multi-agent service that auto-writes Korean government grant documents (business plans, etc.) — research → visual generation → drafting → reviewer-perspective evaluation, with HWP/DOCX/PDF export · [🔗 Live](https://www.docscompass.com/ko)
-- ✨ **Yunseol** 🔒: Flutter-based MVP project · [🔗 Live](https://yun-seol.com/)
-- 💌 **bottle-letter** 🔒: Messaging / letter app · launched then sunset
-- 🎫 **ticket_with_ss** 🔒: Ticketing Flutter app.
+- 🕊️ **Yunseol** 🔒: Digital obituary service — write an obituary in the app & share it via QR; friends leave condolences and gift records on the web, while the family manages live stats and condolence-money tallies · [🔗 Live](https://yun-seol.com/)
+- 💌 **bottle-letter** 🔒: A "message in a bottle" app that casts letters out to sea — using location, ocean data, and an AI letter helper · launched then sunset
+- 🎫 **ticket_with_ss** 🔒: An app to buy and redeem experience passes with the celebrity of your choice.
 
 > 🔒 = private repository (code is private, listed as project history only)
 
