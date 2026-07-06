@@ -14,7 +14,7 @@ Generative voice AI that adds emotional narration to video — no voice actor re
 
 ## 🚀 Building Now
 
-- 🎙️ **VoxFader**: Generative voice AI that adds emotion to video. Auto scene-emotion tagging (vision-LLM) → emotional narration (emotion fine-tuned TTS) → real-time intensity control with an EQ fader.
+- 🎙️ **VoxFader** 🔒: Generative voice AI that adds emotion to video. Auto scene-emotion tagging (vision-LLM) → emotional narration (emotion fine-tuned TTS) → real-time intensity control with an EQ fader.
 - 🤖 **[ai-agent-skills](https://github.com/djfksjd/ai-agent-skills)**: A collection of AI agent skills for real-world automation — HWPX document engine · multi-agent content team · emotional TTS pipeline.
 - 📈 **[stockagent](https://github.com/djfksjd/stockagent)**: A multi-agent stock trading system that uses an LLM as the decision brain. Automates research → strategy → technical validation → risk → orders → reporting.
 - 🍵 **Pook** 🔒: Mobile service app (Flutter, web + app) · [🔗 Live](https://www.pookparty.com/)
