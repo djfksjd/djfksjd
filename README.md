@@ -16,6 +16,7 @@
 
 - 🎙️ **VoxFader** 🔒: 영상 콘텐츠에 감정을 입히는 생성형 음성 AI. 장면 감정 자동 태깅(vision-LLM) → 감정 나레이션 생성(감정 FT TTS) → EQ 페이더로 강도 실시간 조절.
 - 🤖 **[ai-agent-skills](https://github.com/djfksjd/ai-agent-skills)**: 실무 자동화를 위한 AI 에이전트 스킬 모음 — HWPX 문서엔진 · 멀티에이전트 콘텐츠팀 · 감정 TTS 파이프라인.
+- 🔎 **[ir-search](https://github.com/djfksjd/ir-search)**: 한국 정부 지원사업 전수조사 Claude Code 스킬 — K-Startup·기업마당·NIPA·KOCCA·SMTECH 크롤링, 프로젝트 프로필 기반 "즉시 지원/로드맵/변형" 3분류 보고서 자동 생성.
 - 📈 **[stockagent](https://github.com/djfksjd/stockagent)**: LLM을 매매 판단의 두뇌로 쓰는 멀티에이전트 주식 트레이딩 시스템. 리서치→전략→기술검증→리스크→주문→리포트 자동화.
 - 🎉 **Pook (푹)** 🔒: 파티 호스트를 위한 올인원 운영 서비스 — 파티 기획·게스트 관리·미니게임·투표·채팅·AI 피드백 분석, 바(주점) 주문/테이블/쿠폰까지. 호스트는 웹, 게스트는 앱 · [🔗 Live](https://www.pookparty.com/)
 
