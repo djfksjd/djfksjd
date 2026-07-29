@@ -1,55 +1,92 @@
-<samp>🇰🇷 한국어 · [🇺🇸 English](https://github.com/djfksjd/djfksjd/blob/main/README.en.md)</samp>
+<!-- SYNC: Keep the hero, selected systems, and archive aligned with README.en.md. -->
 
-# Hi, I'm Danny 👋
+<p align="right"><samp>한국어 · <a href="./README.en.md">English</a></samp></p>
 
-**Building generative voice & media AI — and the agents that automate it.**
-성우 없이도 영상에 감정 나레이션을 입히는 생성형 음성 AI를 만듭니다.
+<p align="center">
+  <img src="./assets/hero.svg?v=1" width="100%" alt="Danny — 감정을 담는 Voice AI와 실제로 작동하는 Agent Systems를 만드는 AI 빌더">
+</p>
 
-[![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.com/claude-code)
-[![AI](https://img.shields.io/badge/AI%20Agents-000000?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/djfksjd/ai-agent-skills)
-[![TTS](https://img.shields.io/badge/🎙️%20Voice%20AI-5865F2?style=for-the-badge)](https://github.com/djfksjd)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eodnjs748@gmail.com)
+<div align="center">
+
+## 감정을 설계하고, 에이전트로 움직입니다.
+
+성우 없이 영상에 감정 내레이션을 입히는 생성형 음성 AI를 만듭니다.<br>그리고 그 시스템이 스스로 조사하고 판단하고 실행하도록 에이전트를 설계합니다.
+
+<br><br>
+
+**LIVE**<br>[Pook ↗](https://www.pookparty.com/) · [Docs Compass ↗](https://www.docscompass.com/ko) · [Stock Compass ↗](https://stockcompass.vercel.app/) · [Yunseol ↗](https://yun-seol.com/)
+
+</div>
 
 ---
 
-## 🚀 Building Now
+<sub>SELECTED SYSTEMS / 01</sub>
 
-- 🎙️ **VoxFader** 🔒: 영상 콘텐츠에 감정을 입히는 생성형 음성 AI. 장면 감정 자동 태깅(vision-LLM) → 감정 나레이션 생성(감정 FT TTS) → EQ 페이더로 강도 실시간 조절.
-- 🤖 **[ai-agent-skills](https://github.com/djfksjd/ai-agent-skills)**: 실무 자동화를 위한 AI 에이전트 스킬 모음 — HWPX 문서엔진 · 멀티에이전트 콘텐츠팀 · 감정 TTS 파이프라인.
-- 🔎 **[ir-search](https://github.com/djfksjd/ir-search)**: 한국 정부 지원사업 전수조사 에이전트 스킬 (Claude Code·Codex·agy·Cursor·Gemini CLI·Grok Build) — K-Startup·기업마당·NIPA·KOCCA·SMTECH 크롤링, 프로젝트 프로필 기반 "즉시 지원/로드맵/변형" 3분류 보고서 자동 생성.
-- 📈 **[stockagent](https://github.com/djfksjd/stockagent)**: LLM을 매매 판단의 두뇌로 쓰는 멀티에이전트 주식 트레이딩 시스템. 리서치→전략→기술검증→리스크→주문→리포트 자동화.
-- 🎉 **Pook (푹)** 🔒: 파티 호스트를 위한 올인원 운영 서비스 — 파티 기획·게스트 관리·미니게임·투표·채팅·AI 피드백 분석, 바(주점) 주문/테이블/쿠폰까지. 호스트는 웹, 게스트는 앱 · [🔗 Live](https://www.pookparty.com/)
+### VoxFader
 
-## 🛠️ Past Projects
+장면의 감정을 vision-language model로 읽고, 감정 TTS로 내레이션을 만든 뒤, EQ 페이더로 강도를 조절합니다. **합성 음성의 표현력과 사람의 제어권을 함께 설계**하는 현재의 핵심 제품입니다.
 
-- 💹 **[ai_investment](https://github.com/djfksjd/ai_investment)**: AI 투자 서포트 웹서비스 (TypeScript) · ⏸️ 개발 중단.
-- 📊 **stock_compass** 🔒: AI 주식 분석 리포트 + 투자 커뮤니티 플랫폼 — 한/영 이중언어 리포트, 구독·이메일 알림·댓글·좋아요 (반응형 웹) · [🔗 Live](https://stockcompass.vercel.app/)
-- 📝 **docs-compass (문서 나침반)** 🔒: 정부지원사업 서류(사업계획서 등)를 자동 작성하는 AI 멀티에이전트 서비스 — 리서치·서칭 → 시각자료 생성 → 초안 작성 → 심사위원 관점 평가, HWP/DOCX/PDF 내보내기 · [🔗 Live](https://www.docscompass.com/ko)
-- 🕊️ **Yunseol (윤슬)** 🔒: 디지털 부고 서비스 — 앱으로 부고 작성·QR 공유, 지인은 웹에서 조문·부의금 기록, 상주는 실시간 통계로 부의금 정리 · [🔗 Live](https://yun-seol.com/)
-- 💌 **bottle-letter (유리병 편지)** 🔒: 바다에 편지를 띄워 보내는 '유리병 편지' 앱 — 위치·해양 데이터·AI 편지 도우미 활용 · 앱 출시 후 서비스 종료
-- 🎫 **ticket_with_ss** 🔒: 원하는 유명인의 이용권을 구매해 이용하는 앱.
+<samp>PRIVATE · IN DEVELOPMENT · VISION-LANGUAGE MODEL · EMOTIONAL TTS</samp>
 
-> 🔒 = private 저장소 (코드는 비공개, 프로젝트 이력만 표기)
+---
 
-## 🧰 Stack
+<sub>SELECTED SYSTEMS / 02</sub>
 
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
+### [ir-search](https://github.com/djfksjd/ir-search)
 
-**관심 영역** · LLM 에이전트 오케스트레이션 · 음성 합성(TTS) & 파인튜닝 · vision-LLM · 자동화 파이프라인
+공고를 찾는 데서 끝내지 않고, 프로젝트 조건과 대조해 **지금 지원할 수 있는지 판정**하는 에이전트 스킬입니다. K-Startup·기업마당·NIPA·KOCCA·SMTECH를 조사하고 결과를 `즉시 지원 / 요건 충족 시 / 변형하면 가능`으로 나눕니다.
 
-## 🔐 개발 원칙
+<samp>OPEN SOURCE · PYTHON · MULTI-HOST · PROFILE-MATCHED RESEARCH</samp>
 
-> 시크릿은 코드에 두지 않습니다 — `.env`(gitignore) / `.env.example` 분리, 민감정보 최소수집·처리 후 파기를 기본값으로.
+[시스템 살펴보기 →](https://github.com/djfksjd/ir-search)
+
+---
+
+<sub>SELECTED SYSTEMS / 03</sub>
+
+### [Imagination](https://github.com/djfksjd/imagination)
+
+“더 창의적으로 생각해”라고 부탁하는 대신 **뻔한 답으로 가는 길을 구조적으로 차단**합니다. 발산은 엔진이, 방향 선택은 사람이, 구체화는 브레인스토밍이 맡는 human-in-the-loop 창의 워크플로입니다.
+
+<samp>50–0 FROZEN BLIND EVAL · HUMAN-IN-THE-LOOP · CLAUDE CODE + CODEX</samp>
+
+[평가 방법과 워크플로 보기 →](https://github.com/djfksjd/imagination#measured-results)
+
+---
+
+## Git in motion
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/djfksjd/djfksjd/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/djfksjd/djfksjd/output/github-contribution-grid-snake.svg">
+  <img src="https://raw.githubusercontent.com/djfksjd/djfksjd/output/github-contribution-grid-snake.svg" width="100%" alt="Danny의 GitHub 기여 그래프를 따라 움직이는 애니메이션">
+</picture>
+
+<sub>실제 GitHub 기여 데이터를 매일 새로 그립니다.</sub>
+
+<br><br>
+
+<details>
+<summary><strong>More work</strong> — 공개 에이전트 아카이브</summary>
 
 <br>
 
-![Profile views](https://komarev.com/ghpvc/?username=djfksjd&color=5865F2&style=flat&label=Profile+views)
-![Focus](https://img.shields.io/badge/Focus-Voice_AI_·_Agents-D97757?style=flat)
-![Location](https://img.shields.io/badge/Based_in-Korea-0F9D58?style=flat)
+**Public agents**
+
+- [ai-agent-skills](https://github.com/djfksjd/ai-agent-skills) — HWPX 문서 엔진·멀티에이전트 콘텐츠 팀·감정 TTS 파이프라인
+- [sole-search](https://github.com/djfksjd/sole-search) — 운영 중인 소상공인을 위한 지원사업 자격 판정
+- [patent-search-skill](https://github.com/djfksjd/patent-search-skill) — KIPRIS·Google Patents 기반 선행기술조사와 차별화 가이드
+- [cover-letter-team](https://github.com/djfksjd/cover-letter-team) — 경험을 날조하지 않는 자소서 멀티에이전트 팀
+- [stockagent](https://github.com/djfksjd/stockagent) — 리서치부터 주문·리포트까지 연결하는 6단계 트레이딩 오케스트레이션
+
+</details>
+
+## Working set
+
+Python · PyTorch · TypeScript · React · Flutter · Supabase<br>LLM orchestration · speech synthesis · vision-language models · evaluation systems
+
+## Say hello
+
+새로운 제품, 음성 AI, 에이전트 설계 이야기는 언제든 환영합니다.<br>[eodnjs748@gmail.com](mailto:eodnjs748@gmail.com) · [GitHub repositories](https://github.com/djfksjd?tab=repositories)
+
+<p align="right"><sub>Designed around signal, judgment, and things that ship.</sub></p>

@@ -1,0 +1,53 @@
+name: Refresh contribution motion
+
+on:
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/snake.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Generate the contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#C66A10&color_dots=#F6F8FA,#F9E3BA,#F8C46A,#F5A623,#C66A10
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#F5A623&color_dots=#161B22,#3A2A13,#6B4613,#B87616,#F5A623
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Respect reduced-motion preferences
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          rule = "@media(prefers-reduced-motion:reduce){*{animation:none!important}}"
+          for path in Path("dist").glob("*.svg"):
+              source = path.read_text(encoding="utf-8")
+              if "</style>" not in source:
+                  raise SystemExit(f"missing style element in {path}")
+              updated = source.replace("</style>", f"{rule}</style>", 1)
+              path.write_text(updated, encoding="utf-8")
+          PY
+
+      - name: Publish the generated SVGs
+        uses: peaceiris/actions-gh-pages@1ef5a1b1df4c63fe21a2242edbee6cac921ece01
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          force_orphan: true

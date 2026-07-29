@@ -1,0 +1,133 @@
+<svg width="1000" height="300" viewBox="0 0 1000 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Danny — Voice AI and Agent Systems</title>
+  <desc id="desc">A dark audio-console interface with an amber signal wave and a fader moving from raw signal to shipped system.</desc>
+
+  <style>
+    text {
+      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .mono {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      letter-spacing: .10em;
+    }
+    .signal {
+      stroke-dasharray: 1400;
+      stroke-dashoffset: 0;
+      animation: draw-signal 1.35s cubic-bezier(.22, 1, .36, 1) .2s both;
+    }
+    .fader {
+      transform: translateX(628px);
+      animation: move-fader 1.05s cubic-bezier(.22, 1, .36, 1) .55s both;
+    }
+    .peak {
+      opacity: 1;
+      animation: reveal-peak .35s ease-out 1.45s both;
+    }
+    .readout {
+      opacity: 1;
+      transform: translateY(0);
+      animation: reveal-readout .55s ease-out 1.05s both;
+    }
+    .mobile-flow {
+      display: none;
+    }
+    @keyframes draw-signal {
+      from { stroke-dashoffset: 1400; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes move-fader {
+      from { transform: translateX(0); }
+      to { transform: translateX(628px); }
+    }
+    @keyframes reveal-peak {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes reveal-readout {
+      from { opacity: 0; transform: translateY(5px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .signal, .fader, .peak, .readout { animation: none !important; }
+    }
+    @media (max-width: 600px) {
+      .micro, .readout { display: none; }
+      .tagline { font-size: 21px; letter-spacing: .08em; }
+      .mobile-flow { display: block; }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1000" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0D10"/>
+      <stop offset=".56" stop-color="#11151A"/>
+      <stop offset="1" stop-color="#0B0D10"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="54" y1="213" x2="946" y2="213" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6B4613"/>
+      <stop offset=".28" stop-color="#D98A1B"/>
+      <stop offset=".72" stop-color="#F5A623"/>
+      <stop offset="1" stop-color="#FFCB70"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#F5A623" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#F5A623" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="amberGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="panelClip">
+      <rect width="1000" height="300" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#panelClip)">
+    <rect width="1000" height="300" rx="24" fill="url(#panel)"/>
+    <circle cx="760" cy="18" r="240" fill="url(#halo)" opacity=".34"/>
+
+    <g opacity=".52" stroke="#232A33">
+      <path d="M54 52H946"/>
+      <path d="M54 234H946"/>
+      <path d="M54 256H946"/>
+      <path d="M54 278H946"/>
+      <path d="M100 234V242M146 234V242M192 234V242M238 234V242M284 234V242M330 234V242M376 234V242M422 234V242M468 234V242M514 234V242M560 234V242M606 234V242M652 234V242M698 234V242M744 234V242M790 234V242M836 234V242M882 234V242M928 234V242"/>
+    </g>
+
+    <g class="mono micro" font-size="14" fill="#8B95A3">
+      <text x="54" y="34">DANNY / AI BUILDER</text>
+      <text x="946" y="34" text-anchor="end">SEOUL · KR</text>
+      <text x="54" y="272">RAW SIGNAL</text>
+      <text x="946" y="272" text-anchor="end">SHIPPED SYSTEM</text>
+    </g>
+
+    <text x="50" y="132" fill="#E8EBEF" font-size="74" font-weight="750" letter-spacing="-.045em">DANNY</text>
+    <text x="55" y="168" class="mono tagline" fill="#AEB6C1" font-size="17">VOICE AI  /  AGENT SYSTEMS  /  PRODUCTS</text>
+
+    <path d="M54 213H104L119 208L133 218L148 199L164 225L180 213H220L232 208L245 218L260 186L277 238L294 202L311 220L327 213H365L381 205L396 221L414 190L431 234L449 198L465 226L482 213H521L536 207L551 219L568 193L585 232L602 200L619 224L638 213H676L691 206L707 220L724 196L741 230L758 203L775 222L793 213H835L850 208L866 218L883 201L899 225L915 213H946" stroke="#303844" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path class="signal" d="M54 213H104L119 208L133 218L148 199L164 225L180 213H220L232 208L245 218L260 186L277 238L294 202L311 220L327 213H365L381 205L396 221L414 190L431 234L449 198L465 226L482 213H521L536 207L551 219L568 193L585 232L602 200L619 224L638 213H676L691 206L707 220L724 196L741 230L758 203L775 222L793 213H835L850 208L866 218L883 201L899 225L915 213H946" stroke="url(#amber)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" filter="url(#amberGlow)"/>
+
+    <g class="fader">
+      <rect x="58" y="245" width="68" height="22" rx="7" fill="#F5A623"/>
+      <rect x="63" y="250" width="58" height="12" rx="4" fill="#FFD083" opacity=".62"/>
+      <path d="M92 242V270" stroke="#0B0D10" stroke-width="2" opacity=".75"/>
+    </g>
+
+    <g class="readout">
+      <text x="688" y="185" class="mono" fill="#8B95A3" font-size="12">GAIN</text>
+      <text x="688" y="203" class="mono" fill="#F5A623" font-size="15">+72</text>
+    </g>
+
+    <g class="peak" filter="url(#amberGlow)">
+      <circle cx="946" cy="213" r="4.5" fill="#2EE6A8"/>
+      <circle cx="946" cy="213" r="10" stroke="#2EE6A8" stroke-opacity=".24"/>
+    </g>
+
+    <text x="54" y="278" class="mono mobile-flow" fill="#8B95A3" font-size="18">RAW SIGNAL  →  SHIPPED SYSTEM</text>
+  </g>
+
+  <rect x=".75" y=".75" width="998.5" height="298.5" rx="23.25" stroke="#2A313B" stroke-width="1.5"/>
+</svg>

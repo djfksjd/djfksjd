@@ -1,55 +1,92 @@
-<samp>[🇰🇷 한국어](https://github.com/djfksjd/djfksjd/blob/main/README.md) · 🇺🇸 English</samp>
+<!-- SYNC: Keep the hero, selected systems, and archive aligned with README.md. -->
 
-# Hi, I'm Danny 👋
+<p align="right"><samp><a href="./README.md">한국어</a> · English</samp></p>
 
-**Building generative voice & media AI — and the agents that automate it.**
-Generative voice AI that adds emotional narration to video — no voice actor required.
+<p align="center">
+  <img src="./assets/hero.svg?v=1" width="100%" alt="Danny — an AI builder creating expressive voice AI and agent systems that work in the real world">
+</p>
 
-[![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.com/claude-code)
-[![AI](https://img.shields.io/badge/AI%20Agents-000000?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/djfksjd/ai-agent-skills)
-[![TTS](https://img.shields.io/badge/🎙️%20Voice%20AI-5865F2?style=for-the-badge)](https://github.com/djfksjd)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eodnjs748@gmail.com)
+<div align="center">
+
+## I shape emotion. Agents move the system.
+
+I build generative voice AI that gives video emotional narration without a voice actor.<br>Then I design the agents that research, decide, and operate the system around it.
+
+<br><br>
+
+**LIVE**<br>[Pook ↗](https://www.pookparty.com/) · [Docs Compass ↗](https://www.docscompass.com/ko) · [Stock Compass ↗](https://stockcompass.vercel.app/) · [Yunseol ↗](https://yun-seol.com/)
+
+</div>
 
 ---
 
-## 🚀 Building Now
+<sub>SELECTED SYSTEMS / 01</sub>
 
-- 🎙️ **VoxFader** 🔒: Generative voice AI that adds emotion to video. Auto scene-emotion tagging (vision-LLM) → emotional narration (emotion fine-tuned TTS) → real-time intensity control with an EQ fader.
-- 🤖 **[ai-agent-skills](https://github.com/djfksjd/ai-agent-skills)**: A collection of AI agent skills for real-world automation — HWPX document engine · multi-agent content team · emotional TTS pipeline.
-- 🔎 **[ir-search](https://github.com/djfksjd/ir-search)**: A Claude Code skill that exhaustively surveys Korean government support programs — crawls K-Startup/Bizinfo/NIPA/KOCCA/SMTECH and produces a profile-matched "apply now / roadmap / reframe" report.
-- 📈 **[stockagent](https://github.com/djfksjd/stockagent)**: A multi-agent stock trading system that uses an LLM as the decision brain. Automates research → strategy → technical validation → risk → orders → reporting.
-- 🎉 **Pook** 🔒: All-in-one operations service for party hosts — party planning, guest management, mini-games, voting, chat, AI feedback analysis, plus bar ordering/tables/coupons. Web for hosts, app for guests · [🔗 Live](https://www.pookparty.com/)
+### VoxFader
 
-## 🛠️ Past Projects
+It reads scene emotion with a vision-language model, creates narration with emotional TTS, then lets a person shape intensity with an EQ fader. My current core product **designs expressive synthetic voice and human control together**.
 
-- 💹 **[ai_investment](https://github.com/djfksjd/ai_investment)**: AI investment support web service (TypeScript) · ⏸️ Discontinued.
-- 📊 **stock_compass** 🔒: AI stock-analysis reports + investing community platform — bilingual (KO/EN) reports, subscriptions, email alerts, comments & likes (responsive web) · [🔗 Live](https://stockcompass.vercel.app/)
-- 📝 **docs-compass** 🔒: AI multi-agent service that auto-writes Korean government grant documents (business plans, etc.) — research → visual generation → drafting → reviewer-perspective evaluation, with HWP/DOCX/PDF export · [🔗 Live](https://www.docscompass.com/ko)
-- 🕊️ **Yunseol** 🔒: Digital obituary service — write an obituary in the app & share it via QR; friends leave condolences and gift records on the web, while the family manages live stats and condolence-money tallies · [🔗 Live](https://yun-seol.com/)
-- 💌 **bottle-letter** 🔒: A "message in a bottle" app that casts letters out to sea — using location, ocean data, and an AI letter helper · launched then sunset
-- 🎫 **ticket_with_ss** 🔒: An app to buy and redeem experience passes with the celebrity of your choice.
+<samp>PRIVATE · IN DEVELOPMENT · VISION-LANGUAGE MODEL · EMOTIONAL TTS</samp>
 
-> 🔒 = private repository (code is private, listed as project history only)
+---
 
-## 🧰 Stack
+<sub>SELECTED SYSTEMS / 02</sub>
 
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
+### [ir-search](https://github.com/djfksjd/ir-search)
 
-**Interests** · LLM agent orchestration · speech synthesis (TTS) & fine-tuning · vision-LLM · automation pipelines
+An agent skill that goes beyond finding grants: it compares each program with the project and **decides whether it is actionable now**. It surveys K-Startup, Bizinfo, NIPA, KOCCA, and SMTECH, then classifies the result as `apply now / meet conditions / reframe`.
 
-## 🔐 Engineering Principles
+<samp>OPEN SOURCE · PYTHON · MULTI-HOST · PROFILE-MATCHED RESEARCH</samp>
 
-> Secrets never live in code — `.env` (gitignored) / `.env.example` split, with minimal collection and post-processing deletion of sensitive data as the default.
+[Explore the system →](https://github.com/djfksjd/ir-search)
+
+---
+
+<sub>SELECTED SYSTEMS / 03</sub>
+
+### [Imagination](https://github.com/djfksjd/imagination)
+
+Instead of asking an AI to “be more creative,” it **structurally blocks the paths to obvious answers**. The engine diverges, the human chooses the direction, and brainstorming turns that choice into a pressure-tested concept.
+
+<samp>50–0 FROZEN BLIND EVAL · HUMAN-IN-THE-LOOP · CLAUDE CODE + CODEX</samp>
+
+[See the evaluation method and workflow →](https://github.com/djfksjd/imagination#measured-results)
+
+---
+
+## Git in motion
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/djfksjd/djfksjd/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/djfksjd/djfksjd/output/github-contribution-grid-snake.svg">
+  <img src="https://raw.githubusercontent.com/djfksjd/djfksjd/output/github-contribution-grid-snake.svg" width="100%" alt="An animated snake moving through Danny's GitHub contribution graph">
+</picture>
+
+<sub>Redrawn daily from real GitHub contribution data.</sub>
+
+<br><br>
+
+<details>
+<summary><strong>More work</strong> — public agent archive</summary>
 
 <br>
 
-![Profile views](https://komarev.com/ghpvc/?username=djfksjd&color=5865F2&style=flat&label=Profile+views)
-![Focus](https://img.shields.io/badge/Focus-Voice_AI_·_Agents-D97757?style=flat)
-![Location](https://img.shields.io/badge/Based_in-Korea-0F9D58?style=flat)
+**Public agents**
+
+- [ai-agent-skills](https://github.com/djfksjd/ai-agent-skills) — HWPX document engine, multi-agent content team, and emotional TTS pipeline
+- [sole-search](https://github.com/djfksjd/sole-search) — eligibility research for Korean small-business support programs
+- [patent-search-skill](https://github.com/djfksjd/patent-search-skill) — prior-art research and differentiation guidance with KIPRIS and Google Patents
+- [cover-letter-team](https://github.com/djfksjd/cover-letter-team) — a multi-agent cover-letter team that refuses to invent experience
+- [stockagent](https://github.com/djfksjd/stockagent) — six-stage trading orchestration from research to orders and reporting
+
+</details>
+
+## Working set
+
+Python · PyTorch · TypeScript · React · Flutter · Supabase<br>LLM orchestration · speech synthesis · vision-language models · evaluation systems
+
+## Say hello
+
+Always happy to talk about new products, voice AI, and practical agent systems.<br>[eodnjs748@gmail.com](mailto:eodnjs748@gmail.com) · [GitHub repositories](https://github.com/djfksjd?tab=repositories)
+
+<p align="right"><sub>Designed around signal, judgment, and things that ship.</sub></p>
