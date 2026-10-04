@@ -3,7 +3,7 @@
 <p align="right"><samp><a href="./README.md">한국어</a> · English</samp></p>
 
 <p align="center">
-  <img src="./assets/hero.svg?v=2" width="100%" alt="Danny — building ALIVE, a brand that brings living things together">
+  <img src="./assets/hero-alive.gif?v=1" width="100%" alt="Danny — building ALIVE, a brand that brings living things together">
 </p>
 
 <div align="center">
