@@ -3,14 +3,14 @@
 <p align="right"><samp><a href="./README.md">한국어</a> · English</samp></p>
 
 <p align="center">
-  <img src="./assets/hero.svg?v=1" width="100%" alt="Danny — an AI builder creating expressive voice AI and agent systems that work in the real world">
+  <img src="./assets/hero.svg?v=2" width="100%" alt="Danny — building ALIVE, a brand that brings living things together">
 </p>
 
 <div align="center">
 
-## I shape emotion. Agents move the system.
+## ALIVE — where living things come together.
 
-I build generative voice AI that gives video emotional narration without a voice actor.<br>Then I design the agents that research, decide, and operate the system around it.
+Starting with animals, I build products with the names and character of living things.<br>Distinct identities come together under one brand, with room for new life to join.
 
 <br><br>
 
@@ -22,11 +22,21 @@ I build generative voice AI that gives video emotional narration without a voice
 
 <sub>SELECTED SYSTEMS / 01</sub>
 
-### VoxFader
+### ALIVE
 
-It reads scene emotion with a vision-language model, creates narration with emotional TTS, then lets a person shape intensity with an EQ fader. My current core product **designs expressive synthetic voice and human control together**.
+**A brand that brings living things together.**
 
-<samp>PRIVATE · IN DEVELOPMENT · VISION-LANGUAGE MODEL · EMOTIONAL TTS</samp>
+Just as magpies, owls, and wolves each have their own character, every ALIVE product has its own role and identity. The brand starts with animals and will grow to embrace a wider world of living things.
+
+**ALIVE FAMILY**<br>
+KKACHI · STRIX · LUPUS · [SCELIPH ↗](https://github.com/djfksjd/sceliph)
+
+**PLANNED ADDITIONS**<br>
+CORVUS · CAMELUS · RAPTOR · SALTIC · and more living things to come
+
+Each new product idea adds another name to ALIVE. **One brand. Distinct lives. A growing family of products.**
+
+<samp>A BRAND OF LIVING THINGS · DISTINCT IDENTITIES · AN EXPANDING FAMILY</samp>
 
 ---
 
@@ -83,10 +93,10 @@ Instead of asking an AI to “be more creative,” it **structurally blocks the 
 
 ## Working set
 
-Python · PyTorch · TypeScript · React · Flutter · Supabase<br>LLM orchestration · speech synthesis · vision-language models · evaluation systems
+Python · PyTorch · TypeScript · React · Flutter · Supabase<br>AI agents · local-first products · creative tools · evaluation systems
 
 ## Say hello
 
-Always happy to talk about new products, voice AI, and practical agent systems.<br>[eodnjs748@gmail.com](mailto:eodnjs748@gmail.com) · [GitHub repositories](https://github.com/djfksjd?tab=repositories)
+Always happy to talk about ALIVE, new products, and practical agent systems.<br>[eodnjs748@gmail.com](mailto:eodnjs748@gmail.com) · [GitHub repositories](https://github.com/djfksjd?tab=repositories)
 
-<p align="right"><sub>Designed around signal, judgment, and things that ship.</sub></p>
+<p align="right"><sub>ALIVE — a growing family of living things.</sub></p>

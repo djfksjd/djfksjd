@@ -3,14 +3,14 @@
 <p align="right"><samp>한국어 · <a href="./README.en.md">English</a></samp></p>
 
 <p align="center">
-  <img src="./assets/hero.svg?v=1" width="100%" alt="Danny — 감정을 담는 Voice AI와 실제로 작동하는 Agent Systems를 만드는 AI 빌더">
+  <img src="./assets/hero.svg?v=2" width="100%" alt="Danny — 살아있는 생물을 모아놓은 브랜드 ALIVE를 만드는 빌더">
 </p>
 
 <div align="center">
 
-## 감정을 설계하고, 에이전트로 움직입니다.
+## ALIVE — 살아있는 것들이 모이는 곳.
 
-성우 없이 영상에 감정 내레이션을 입히는 생성형 음성 AI를 만듭니다.<br>그리고 그 시스템이 스스로 조사하고 판단하고 실행하도록 에이전트를 설계합니다.
+동물에서 시작해, 살아있는 생물의 이름과 개성을 담은 제품을 만듭니다.<br>서로 다른 존재들이 하나의 브랜드 안에 모이고, 새로운 생물과 함께 계속 확장됩니다.
 
 <br><br>
 
@@ -22,11 +22,21 @@
 
 <sub>SELECTED SYSTEMS / 01</sub>
 
-### VoxFader
+### ALIVE
 
-장면의 감정을 vision-language model로 읽고, 감정 TTS로 내레이션을 만든 뒤, EQ 페이더로 강도를 조절합니다. **합성 음성의 표현력과 사람의 제어권을 함께 설계**하는 현재의 핵심 제품입니다.
+**살아있는 생물을 모아놓은 브랜드.**
 
-<samp>PRIVATE · IN DEVELOPMENT · VISION-LANGUAGE MODEL · EMOTIONAL TTS</samp>
+까치, 올빼미, 늑대처럼 각기 다른 생물이 저마다의 이름과 개성을 지니듯, ALIVE의 제품도 각자의 역할과 정체성을 가집니다. 동물에서 시작한 이 브랜드는 앞으로 더 다양한 살아있는 생물의 이름을 품어갑니다.
+
+**ALIVE FAMILY**<br>
+KKACHI · STRIX · LUPUS · [SCELIPH ↗](https://github.com/djfksjd/sceliph)
+
+**앞으로 함께할 이름들**<br>
+CORVUS · CAMELUS · RAPTOR · SALTIC · 그리고 더 많은 생물들
+
+새로운 제품을 구상할 때마다 ALIVE에 새로운 이름이 더해집니다. **하나의 브랜드, 서로 다른 생명, 계속 자라나는 제품군.**
+
+<samp>A BRAND OF LIVING THINGS · DISTINCT IDENTITIES · AN EXPANDING FAMILY</samp>
 
 ---
 
@@ -83,10 +93,10 @@
 
 ## Working set
 
-Python · PyTorch · TypeScript · React · Flutter · Supabase<br>LLM orchestration · speech synthesis · vision-language models · evaluation systems
+Python · PyTorch · TypeScript · React · Flutter · Supabase<br>AI agents · local-first products · creative tools · evaluation systems
 
 ## Say hello
 
-새로운 제품, 음성 AI, 에이전트 설계 이야기는 언제든 환영합니다.<br>[eodnjs748@gmail.com](mailto:eodnjs748@gmail.com) · [GitHub repositories](https://github.com/djfksjd?tab=repositories)
+ALIVE, 새로운 제품, 에이전트 설계 이야기는 언제든 환영합니다.<br>[eodnjs748@gmail.com](mailto:eodnjs748@gmail.com) · [GitHub repositories](https://github.com/djfksjd?tab=repositories)
 
-<p align="right"><sub>Designed around signal, judgment, and things that ship.</sub></p>
+<p align="right"><sub>ALIVE — a growing family of living things.</sub></p>
