@@ -26,10 +26,10 @@
 
 **살아있는 생물을 모아놓은 브랜드.**
 
-까치, 올빼미, 늑대, 비버처럼 각기 다른 생물이 저마다의 이름과 개성을 지니듯, ALIVE의 제품도 각자의 역할과 정체성을 가집니다. 동물에서 시작한 이 브랜드는 앞으로 더 다양한 살아있는 생물의 이름을 품어갑니다.
+까치, 올빼미, 늑대, 비버, 문어처럼 각기 다른 생물이 저마다의 이름과 개성을 지니듯, ALIVE의 제품도 각자의 역할과 정체성을 가집니다. 동물에서 시작한 이 브랜드는 앞으로 더 다양한 살아있는 생물의 이름을 품어갑니다.
 
 **ALIVE FAMILY**<br>
-[KKACHI ↗](https://github.com/djfksjd/kkachi-releases) · STRIX · [LUPUS ↗](https://github.com/djfksjd/lupus) · [SCELIPH ↗](https://github.com/djfksjd/sceliph) · [CASTOR ↗](https://github.com/djfksjd/castor) · [RAPTOR ↗](https://github.com/djfksjd/ROS_RAPTER) <sub>연구 중</sub>
+[KKACHI ↗](https://github.com/djfksjd/kkachi-releases) · STRIX · [LUPUS ↗](https://github.com/djfksjd/lupus) · [OCTO ↗](https://github.com/djfksjd/imagination-octo) · [SCELIPH ↗](https://github.com/djfksjd/sceliph) · [CASTOR ↗](https://github.com/djfksjd/castor) · [RAPTOR ↗](https://github.com/djfksjd/ROS_RAPTER) <sub>연구 중</sub>
 
 **앞으로 함께할 이름들**<br>
 CORVUS · CAMELUS · SALTIC · 그리고 더 많은 생물들
