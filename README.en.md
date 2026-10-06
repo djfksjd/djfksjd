@@ -26,10 +26,10 @@ Starting with animals, I build products with the names and character of living t
 
 **A brand that brings living things together.**
 
-Just as magpies, owls, wolves, and beavers each have their own character, every ALIVE product has its own role and identity. The brand starts with animals and will grow to embrace a wider world of living things.
+Just as magpies, owls, wolves, beavers, and octopuses each have their own character, every ALIVE product has its own role and identity. The brand starts with animals and will grow to embrace a wider world of living things.
 
 **ALIVE FAMILY**<br>
-[KKACHI ↗](https://github.com/djfksjd/kkachi-releases) · STRIX · [LUPUS ↗](https://github.com/djfksjd/lupus) · [SCELIPH ↗](https://github.com/djfksjd/sceliph) · [CASTOR ↗](https://github.com/djfksjd/castor) · [RAPTOR ↗](https://github.com/djfksjd/ROS_RAPTER) <sub>in research</sub>
+[KKACHI ↗](https://github.com/djfksjd/kkachi-releases) · STRIX · [LUPUS ↗](https://github.com/djfksjd/lupus) · [OCTO ↗](https://github.com/djfksjd/imagination-octo) · [SCELIPH ↗](https://github.com/djfksjd/sceliph) · [CASTOR ↗](https://github.com/djfksjd/castor) · [RAPTOR ↗](https://github.com/djfksjd/ROS_RAPTER) <sub>in research</sub>
 
 **PLANNED ADDITIONS**<br>
 CORVUS · CAMELUS · SALTIC · and more living things to come
