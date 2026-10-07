@@ -16,3 +16,12 @@ A fifth creature, a velociraptor dinosaur, joins the same particle assembly sequ
 +Use case: stylized-concept.
 Asset: RAPTOR creature source artwork for an ALIVE animated brand banner, matching cinematic natural history portraits with warm champagne rim lighting.
 Create a landscape 3:2 portrait of a living velociraptor dinosaur, full body including long tail and both feet fully visible, centered with generous pitch-black margins. Side profile facing right, dynamic alert stance, elegant powerful anatomy, restrained small proto-feathers along head and forearms, believable grey-black reptilian skin, precise scales, characteristic sickle toe claw, intelligent amber eye. Entire animal inside frame. Luxury cinematic realistic creature art, quiet grandeur: as if a creator is giving this animal life from drifting stardust, fine gold and silver particles trail from the tail and body perimeter into pure black. Animal body mostly coherent, realistic and detailed. Dramatic fine pale-gold rim lighting, ivory highlights, neutral desaturated body, perimeter dissolving gently into luminous particles. Background identical pure black, no ground scenery or platform, no green, no rainbow, no HUD or diagrams, no text, no watermark, no borders, no other creatures. Leave black empty margin all around the full animal for use as an isolated animation layer.
+
+## OCTO and CASTOR addition
+
+An octopus (OCTO) and a beaver (CASTOR) join the loop, so the order now follows the family line: KKACHI, STRIX, LUPUS, OCTO, SCELIPH, CASTOR, RAPTOR (about 21 seconds). The original frames are kept for the magpie, owl and wolf scenes and for the raptor-to-magpie return. The four new transitions (wolf → octopus → wasp → beaver → raptor) use the same pattern: the old creature dissolves, gold streak particles gather, and the new one forms from a radial reveal. The wordmark's family line lists all seven.
+
+Artwork for both used the RAPTOR prompt above with the subject swapped:
+
+- `alive-octo.png`: a living common octopus drifting in open black space, side three-quarter view facing right, mantle raised, all eight arms gracefully curling and spreading with suckers visible, intelligent eye, textured mottled skin in neutral bronze-grey tones.
+- `alive-castor.png`: a living Eurasian beaver in side profile facing right, standing on all fours with head slightly raised, entire body including the broad flat scaly tail and webbed hind feet fully visible, dense wet-looking brown-grey fur, subtle orange incisors.
